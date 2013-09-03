@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-	<head>{-% include head.html %-}</head>
+	<head>{% include head.html %}</head>
 
 	<body>
 
@@ -24,17 +24,17 @@
 				<div id = "cv">{% include cv.html %}</div>
 				<!-- div id = "portfolio"></div -->
 				<div id = "favorites">{% include favorites.html %}</div>
-				<!-- div id = "activities">{-% include activities.html %-}</div>
-				<div id = "contacts">{-% include contact.html %-}</div-->
-				<div id = "social">{-% include buttons-social.html %-}</div>
+				<!-- div id = "activities">{-% include activities.html %}</div>
+				<div id = "contacts">{-% include contact.html %}</div-->
+				<div id = "social">{% include buttons-social.html %}</div>
 
 			</div><!-- /Container -->
 
-			<div id = "footer">{-% include footer.html %-}</div>
+			<div id = "footer">{% include footer.html %}</div>
 
 		</div><!-- /Wrapper -->
 
-		{% include trackers.html }
+		{% include trackers.html %}
 
 	</body>
 
