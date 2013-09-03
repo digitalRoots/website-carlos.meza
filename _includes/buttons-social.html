@@ -1,0 +1,28 @@
+
+					<ul class = "pos-button">
+
+						{% if site.owner.linkedin %}
+							<li class = "first">
+								<a href = "https://www.linkedin.com/in/{{ site.owner.linkedin }}" class = "linkedin" title="Linkedin"></a>
+							</li>
+						{% endif %}
+
+						{% if site.owner.google_plus %}
+							<li>
+								<a href = "https://plus.google.com/{{ site.owner.google_plus }}" class = "google" title="Google+"></a>
+							</li>
+						{% endif %}
+
+						{% if site.owner.twitter %}
+							<li{% if !site.owner.facebook %} class="last"{% endif %}>
+								<a href = "https://twitter.com/{{ site.owner.twitter }}" class = "twitter" title="Twitter"></a>
+							</li>
+						{% endif %}
+
+						{% if site.owner.facebook %}
+							<li class="last">
+								<a href = "https://www.facebook.com/{{ site.owner.facebook }}" class = "facebook" title="Facebook"></a>
+							</li>
+						{% endif %}
+
+					</ul>

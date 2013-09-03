@@ -1,0 +1,42 @@
+title: Carlos Meza
+tagline: I.T. Superstar, Entrepreneur, Philanthropist
+keywords: Carlos Alvarez Meza, computer technician, hacker, developer, geek, nerd
+url: http://carlos.droots.org
+domain: droots.org
+
+# Owner/author information
+owner:
+  name: Carlos Meza
+  avatar: 
+  bio: "Driven by my passion for learning, techology, and helping others."
+  email: carlos@droots.org
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  twitter: _digitalRoots
+  facebook:
+  github:
+  linkedin: cmeza99
+  instagram:
+  lastfm:
+  tumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus: 105637764319189669492
+
+location:
+  addr:
+  city:
+  state:
+  zip:
+  country:
+  tel:
+  fax:
+  latitude:
+  longitude:
+
+# Google Analytics - Site ID i.e. UA-XXXXX-X
+google_analytics: UA-43721421-1
+# Google Webmaster Tools
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify: E5316C876AD2085240A814043E0933C3
+
+pygments: true
