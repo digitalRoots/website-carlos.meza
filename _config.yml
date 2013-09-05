@@ -1,6 +1,6 @@
 title: Carlos Meza
 tagline: I.T. Superstar, Entrepreneur, Philanthropist
-keywords: Carlos Alvarez Meza, computer technician, hacker, developer, geek, nerd
+keywords: Carlos Alvarez Meza, information technology, security, computer technician, infosec, hacker, developer, geek, nerd
 url: http://carlos.droots.org
 domain: droots.org
 
@@ -40,3 +40,4 @@ google_verify:
 bing_verify: E5316C876AD2085240A814043E0933C3
 
 pygments: true
+lsi: true
