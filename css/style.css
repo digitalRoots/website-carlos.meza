@@ -513,8 +513,8 @@
 	}
 
 	div.text-field {
-		padding-bottom: 30px;
-		/* height: 150px; */
+		/* padding-bottom: 30px;
+		height: 150px; */
 		clear: both;
 		font-family: 'Patua One';
 	}
@@ -1991,9 +1991,9 @@
 		height: 30px;
 	}
 
-	div.text-field {
+	/*div.text-field {
 		padding-bottom: 20px;
-	}
+	}*/
 
 	input[name="search"] {
 		padding: 5px 35px 5px 10px;
@@ -2365,9 +2365,9 @@
 		height: 30px;
 	}
 
-	div.text-field {
+	/*div.text-field {
 		padding-bottom: 10px;
-	}
+	}*/
 
 	input[name="search"] {
 		padding: 5px 35px 5px 10px;
@@ -2442,6 +2442,12 @@
 		border-left: none;
 	}*/
 	
+	div.text-field:after {
+		clear: both;
+		content: " ";
+		display: block;
+	}
+
 	div.text-field.blog div.text-field-left {
 		width: 65px;
 		padding: 15px 20px 15px 17px;
