@@ -2456,6 +2456,7 @@
 	div.text-field.blog div.text-field-right {
 		width: 384px;
 		padding: 16px 20px 17px;
+		min-height: 50px;
 	}
 
 	#activities div.text-field.blog div.text-field-right {
@@ -2471,7 +2472,7 @@
 
 @media only screen and (min-width: 960px) and (max-width: 1045px) {
 	div.text-field.blog div.text-field-right {
-		width: 384px;
+		width: 312px;
 	}
 }
 
@@ -2484,18 +2485,17 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	div.text-field.blog div.text-field-right {
 		width: 274px;
-		padding: 22px 20px 23px;
+		/*padding: 22px 20px 23px;*/
 	}
 	#activities div.text-field.blog div.text-field-right {
 		height: 38px;
-
 	}
 }
 
 @media only screen and (max-width: 479px) {
 	div.text-field.blog div.text-field-right {
 		width: 134px;
-		padding: 10px 20px 9px;
+		/*padding: 10px 20px 9px;*/
 	}
 	#activities div.text-field.blog div.text-field-right {
 		height: 64px;
